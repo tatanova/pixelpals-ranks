@@ -1,0 +1,15 @@
+name: PP_Ranks
+main: Ranks\PixelRanks
+api: [1.0.3, 2.0.0, 3.0.0]
+version: 06.04.2024
+author: "tatanova"
+description: "Special ranks for PixelPals server, creator: @anyatatanova"
+
+commands:
+  rank:
+    description: "Main command"
+    permission: rank.use
+permissions:
+  rank.use:
+    default: op
+    description: "Main permission"
